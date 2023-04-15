@@ -14,13 +14,13 @@ public class Main {
                 switch (num) {
                     case 0:
                         System.out.println("Please insert the temperature in Celsius:");
-                        float cTemp = sc.nextInt();
+                        float cTemp = sc.nextFloat();
                         float convToFtemp = (cTemp * 9 / 5) + 32;
                         System.out.println("The temperature in Fahrenheit is: " + convToFtemp + " F");
                         break;
                     case 1:
                         System.out.println("Please insert the temperature in Fahrenheit:");
-                        float fTemp = sc.nextInt();
+                        float fTemp = sc.nextFloat();
                         float convToCtemp = ((fTemp - 32) * 5) / 9;
                         System.out.println("The temperature in Celsius is: " + convToCtemp + " C");
                         break;
